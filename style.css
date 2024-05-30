@@ -1,0 +1,302 @@
+@font-face {
+    font-family: "Menu";
+    src: url(fonts/Inter-Regular.otf);
+}
+
+@font-face {
+    font-family: "Titulo 1";
+    src: url(fonts/Inter-Bold.otf);
+}
+
+@font-face {
+    font-family: "Titulo 2";
+    src: url(fonts/Inter-SemiBold.otf);
+}
+
+@font-face {
+    font-family: "Romanesco";
+    src: url(fonts/Romanesco-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    background-color: #A3A656;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header nav {
+    margin-left: 70px;
+}
+
+.header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.header nav ul li:hover{
+    color: #ffff00;
+}
+
+.logos p:hover {
+    color: #ffff00;
+}
+.logos {
+    display: inline-flex;
+}
+
+.logos {
+    align-items: center;
+    display: flex;
+
+}
+
+.logos div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logos p{
+    font-family: "Menu";
+    font-size: 14px;
+}
+
+.flag {
+    padding-right: 10px;
+    margin-left: 50px;
+}
+
+.banner {
+    height:595.094px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner img {
+    height: 100%;
+    width: 100%;
+}
+
+.tituloSPA {
+    font-family: "Romanesco";
+    font-size: 96px;
+    position: absolute;
+    top: 25%;
+    left: 11%;
+}
+
+.fraseSPA {
+    font-family: "Titulo 2";
+    position: absolute;
+    font-size: 32px;
+    top: 40%;
+    left: 10%;
+    width: 550px;
+}
+
+.formulario {
+    background-color: #F2F6F6;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario form {
+    font-family: "Menu";
+    display: flex;
+    align-content: center;
+    gap: 25px;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.formulario form div{
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+.formulario form input {
+    border-radius: 10px;
+    border-style: none;
+    height:60px;
+    width: 250px;
+    padding: 10px; 
+    border-radius: 10px;
+}
+
+.cuerpo {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0px 20px 0px;
+}
+
+.mPies {
+    background-color: #A3A656;
+    border-radius: 15px 15px 0 0;
+    color: white;
+    font-family: "Titulo 2";
+    font-size: 32px;
+    padding: 20px;    
+    text-align: center;
+}
+
+.masaje {
+    width: 370px;
+    margin: 0 134px;
+}
+
+.masaje p {
+    font-family: "Menu";
+    font-size: 16px;
+    padding: 10px 0px;
+    width: auto;
+}
+
+.masaje img {
+    width: 100%;
+}
+
+.reservarB {
+    background-color: #A3A656;
+    border-radius: 35px;
+    margin: 0px 10px;
+    padding: 10px 30px;
+    font-family: "Menu";
+    font-weight: bold;
+}
+
+.base {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.base .precio {
+    font-family: "Titulo 2";
+    font-size: 32px;
+    padding-left: 10px;
+}
+
+.reservarB a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.reservarB:hover{
+    background-color: #384001;
+}
+
+.socio h1 {
+    font-family: "Titulo 2";
+    text-align: center;
+    font-size: 32px;
+    padding: 30px 0px;
+}
+
+.socio{
+    background-color: #F2F6F6;
+    height: 770px;
+}
+
+.panel {
+    display: flex;
+    justify-content: space-around;
+    padding: 35px;
+}
+
+.panel h1 {
+    padding: 0px;
+}
+
+.contorno {
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 10px solid #384001;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 255px;
+    width: 255px;
+}
+
+.membresia h1 {
+    padding-bottom: 20px;
+}
+
+.lista {
+    font-family: "Menu";
+    font-size: 16px;
+    padding-left: 70px;
+    padding-top: 30px;
+}
+
+.condicionB {
+    background-color: #A3A656;
+    border-radius: 35px;
+    margin: 0px 10px;
+    padding: 10px 20px;
+    font-family: "Menu";
+    font-weight: bold;
+    text-align: center;
+}
+
+.condicionB a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.condicionB:hover{
+    background-color: #384001;
+}
+
+input[type="text"]::placeholder{
+    font-family: "Menu";
+    font-size:16px;
+    color: #9E9A9A;
+}
+
+.piePagina {
+    background-color: #384001;
+    color: #A3A656;
+    font-family: "Menu";
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 70px;
+    height: 97px;
+    margin-bottom: 0px;
+}
+
+.piePagina nav ul {
+    list-style: none;
+    display: flex;
+    gap: 80px;
+}
+
+.piePagina nav ul li:hover{
+    color: #ffff00;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-right: 30px;
+}
+
+.redes p:hover {
+    color: #ffff00;
+}
